@@ -3,9 +3,12 @@ using Test3.Clients;
 using System.Net;
 using Test3.Services;
 using Test3.Models;
+using NUnit.Allure.Core;
 
 namespace Test3.Tests.API;
 
+[Parallelizable(scope: ParallelScope.Fixtures)]
+[AllureNUnit]
 public class BaseApiTest
 {
     private readonly Logger _logger = LogManager.GetCurrentClassLogger();
