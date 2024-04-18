@@ -4,7 +4,7 @@ using NLog;
 using Test3.Fakers;
 using Test3.Models;
 
-namespace Test3.Tests;
+namespace Test3.Tests.API;
 
 public class ProjectFakerTest : BaseApiTest
 {

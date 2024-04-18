@@ -4,7 +4,7 @@ using System.Net;
 using Test3.Services;
 using Test3.Models;
 
-namespace Test3.Tests;
+namespace Test3.Tests.API;
 
 public class BaseApiTest
 {
