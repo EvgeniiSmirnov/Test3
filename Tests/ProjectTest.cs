@@ -1,5 +1,4 @@
-﻿using Bogus;
-using NLog;
+﻿using NLog;
 using Test3.Models;
 
 namespace Test3.Tests;
